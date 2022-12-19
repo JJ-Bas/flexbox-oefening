@@ -1,6 +1,5 @@
 /*Schrijf hier jouw CSS*/
 body {
-    border-style: solid;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -8,14 +7,13 @@ body {
 }
 
 main {
-    border-style: solid;
     display: flex;
     flex-direction: row;
     flex: 1 0 500px;
 }
 
 header {
-        flex: 0 0 94px;
+    flex: 0 0 94px;
 }
 
 article {

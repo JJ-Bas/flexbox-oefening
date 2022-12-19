@@ -1,1 +1,41 @@
-/*Schrijf hier jouw CSS*/
+body{
+    display: flex;
+    min-height: 100vh;
+}
+
+.outer-col-1{
+    flex: 0 0 15vw;
+}
+
+.outer-col-2{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 85vw;
+}
+
+header{
+    flex: 0 0 150px;
+}
+
+.inner-row{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.inner-col{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+aside{
+    flex: 0 0 15vw;
+}
+
+article{
+    flex: 1 1 auto;
+}
+
+footer{
+    flex: 0 0 150px;
+}
