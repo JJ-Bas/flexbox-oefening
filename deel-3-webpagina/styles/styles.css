@@ -24,28 +24,29 @@ nav {
     background-color: #030027;
     color: white;
     flex: 0 0 80px;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.logo{
+.logo {
     align-self: center;
     margin: 0 40px;
     text-transform: uppercase;
 }
 
-.nav-buttons{
+.nav-buttons {
     display: flex;
     align-self: center;
     margin: 0 40px;
     gap: 40px;
 }
 
-a{
+a {
     font-family: inherit;
     color: inherit;
     text-decoration: inherit;
     font-size: 20px;
 }
+
 /*////////////////////////main/////////////////////////////*/
 
 main {
@@ -54,9 +55,10 @@ main {
     justify-content: center;
 }
 
-aside{
+aside {
     flex: 1 1 50px;
 }
+
 .mid-column {
     display: flex;
     flex-direction: column;
@@ -78,7 +80,6 @@ h1 {
 h3 {
     font-size: 20px;
 }
-
 
 .three-columns {
     display: flex;
@@ -104,4 +105,3 @@ p {
     font-size: 18px;
     padding: 10px
 }
-
