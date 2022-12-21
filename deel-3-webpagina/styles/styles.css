@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;600&display=swap');
 
-/* colors
-#F2F3D9 beige
-#DC9E82 pink
-#C16E70 red pink
-#030027 darkblue
-#151E3F lightblue
- */
-
 /*///////////////////////global////////////////////////////*/
 
 * {
@@ -36,18 +28,13 @@ nav {
 }
 
 .logo{
-    border-style: solid;
-    border-color: lightblue;
     align-self: center;
     margin: 0 40px;
     text-transform: uppercase;
-
 }
 
 .nav-buttons{
     display: flex;
-    border-color: gold;
-    border-style: solid;
     align-self: center;
     margin: 0 40px;
     gap: 40px;
@@ -62,21 +49,15 @@ a{
 /*////////////////////////main/////////////////////////////*/
 
 main {
-    border-style: solid;
-    border-color: aqua;
     min-height: calc(100vh - 80px);
     display: flex;
     justify-content: center;
 }
 
 aside{
-    border-color: deeppink;
-    border-style: solid;
     flex: 1 1 50px;
 }
 .mid-column {
-    border-color: goldenrod;
-    border-style: solid;
     display: flex;
     flex-direction: column;
 }
@@ -100,7 +81,6 @@ h3 {
 
 
 .three-columns {
-    border-style: solid;
     display: flex;
     min-width: 480px;
     justify-content: space-between;
@@ -108,8 +88,6 @@ h3 {
 }
 
 article {
-    border-color: brown;
-    border-style: solid;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -118,7 +96,7 @@ article {
     background-color: #C16E70;
     height: 350px;
     max-width: 280px;
-    border-radius: 5px;
+    border-radius: 6px;
     flex: 1 1 auto;
 }
 
