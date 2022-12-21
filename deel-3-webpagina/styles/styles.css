@@ -28,11 +28,37 @@ body {
 /*////////////////////////header/////////////////////////////*/
 
 nav {
+    display: flex;
     background-color: #030027;
     color: white;
-    flex: 0 0 80px
+    flex: 0 0 80px;
+    justify-content:space-between;
 }
 
+.logo{
+    border-style: solid;
+    border-color: lightblue;
+    align-self: center;
+    margin: 0 40px;
+    text-transform: uppercase;
+
+}
+
+.nav-buttons{
+    display: flex;
+    border-color: gold;
+    border-style: solid;
+    align-self: center;
+    margin: 0 40px;
+    gap: 40px;
+}
+
+a{
+    font-family: inherit;
+    color: inherit;
+    text-decoration: inherit;
+    font-size: 20px;
+}
 /*////////////////////////main/////////////////////////////*/
 
 main {
@@ -65,11 +91,11 @@ aside{
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
